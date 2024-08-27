@@ -1,0 +1,63 @@
+
+body,html{
+    margin: 0;
+    padding: 0;
+    height :100%;
+}
+.web{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap:5px;
+}
+
+.header{
+    height:40%;
+    display:flex;
+    gap:5px;
+}
+
+.header .p1_1{
+    background-image: url(https://kenhtuyensinh24h.vn/wp-content/uploads/2017/01/dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-tp-hcm.png);
+    flex:2;
+    background-size: 55% ;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.header .p1_2{
+    background-image: url(https://st.quantrimang.com/photos/image/2021/09/05/Co-Vietnam.png);
+    flex:3;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 85% ;
+}
+
+.body{
+    
+    height:30%;
+    display:flex;
+    gap:5px;
+}
+
+.body .p2_1{
+    background-image: url(https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/anh-thien-nhien-90.jpg);
+    flex:4;
+    background-size: cover;
+    background-position:center ;
+}
+
+.body .p2_2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGUzmezt04rs82IyZOxMwo9YJyNGHy5yPbtw&s);
+    flex:1;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer{
+    background-image: url(https://gcs.tripi.vn/public-tripi/tripi-feed/img/474108PBr/anh-nen-co-xanh-2k_030216783.jpg);
+    height:30%;
+    background-size: cover;
+    background-position: center;
+}
