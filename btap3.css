@@ -1,0 +1,106 @@
+body,html{
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f2f4f7;
+    
+}
+.header{
+    display: flex;
+    height: 20%;
+    justify-content: center;
+}
+.form{
+    height: 100vh;
+    display: flex;
+}
+.right{
+    flex:3;
+}
+.left{
+    flex:3;
+}
+.center{
+    flex:1;
+}
+.contents{
+    border: 1px solid white;
+    border-radius: 4px;
+    
+    background-color: white;
+}
+.contents_1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.gender_group{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contents .gender_group div {
+    width: calc(33.33% - 5px);
+    display: flex;
+    align-items: center;
+    padding: 1px 2px; 
+    border: 1px solid rgb(172, 158, 158);
+    border-radius: 7px;
+    box-sizing: border-box;
+    background: white;
+    font-size: 12px;  
+}
+.contents_7 .text_1{
+    font-size: 9;
+    display: flex;
+    margin-top: 5px;
+}
+.contents .text_2 {  
+    font-size: 9;
+    margin-top: 7px;
+}
+
+.contents .text_3{
+    font-size: 9;
+    margin-top: 3px;
+    
+}
+.contents .text_4{
+    font-size: 9;
+    margin-top: 5px;
+}
+
+
+.contents button{
+    width: auto; /* Đặt kích thước tự động để nút nhỏ hơn */
+    padding: 8px 16px; /* Giảm padding của nút */
+    background-color: #42b72a;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px; /* Giảm kích thước font của nút */
+    cursor: pointer;
+    margin: 20px auto 0; /* Căn giữa và khoảng cách trên nút */
+    display: block; /* Căn giữa bằng cách sử dụng display: block */
+}
+.contents button:hover{
+    background-color: #36a420;
+}
+.contents .link:hover{
+    text-decoration: underline;
+}
+.link{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+.gender_1{
+    margin-top: 10px;
+}
+.contents .contents_2{
+    font-size: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.contents .contents_5 input{
+    font-size: 13px;
+}

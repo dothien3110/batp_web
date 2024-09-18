@@ -43,11 +43,11 @@ body,html{
     flex:1;
     background-position: center;
     background-repeat:no-repeat;
+
 }
 .s2{
     flex:4;
     display: flex;
-    
 }
 .s2_2{
     flex:2;
@@ -56,9 +56,18 @@ body,html{
 }
 .s2_1{
     flex: 3;
-    flex-direction: column;
+    
+}
+.text_1{
+    border: 3px solid rgb(102, 241, 234);
+    width: 450px;
+    height: 110px;
+    background-color:rgb(102, 241, 234) ;
 }
 
+.s2_1>p{
+    margin-left: 25 px;
+}
 
 /* contents css */
 
@@ -70,6 +79,7 @@ body,html{
 .content_1{
     flex:5;
     margin-top: 70px;
+    text-align: center;
 }
 .content_2{
     flex:5;
@@ -82,8 +92,9 @@ body,html{
     flex-direction: row;
 }
 .content_footer_1>p{
-    margin-left: 10px;
-    margin-top: -5px;
+    margin-left: 0px;
+    
+    
 }
 .content_footer_1{
     flex:5;
@@ -92,14 +103,23 @@ body,html{
     flex: 5;   
 }
 .content_footer_2>p{
-    margin-top: -5px;
     margin-left: 50px;
 }
 .content_header{
     height: 60%;
     display: flex;
 }
+.text_2{
+    height: 30px;
+    background-color:rgb(102, 241, 234) ;
+    width: 170px;
 
+}
+.text_3{
+    height: 30px;
+    background-color:rgb(102, 241, 234) ;
+    width: 220px;
+}
 
 
 .video{
@@ -107,8 +127,9 @@ body,html{
     gap:80px;
     display: flex;
 }
-.video>a{
+.video>audio{
     margin-top: 20px;
+
 }
 
 /* footer*/
