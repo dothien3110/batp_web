@@ -63,6 +63,7 @@ body,html{
     width: 450px;
     height: 110px;
     background-color:rgb(102, 241, 234) ;
+    border-radius: 5px;
 }
 
 .s2_1>p{
@@ -113,12 +114,14 @@ body,html{
     height: 30px;
     background-color:rgb(102, 241, 234) ;
     width: 170px;
+    border-radius: 5px;
 
 }
 .text_3{
     height: 30px;
     background-color:rgb(102, 241, 234) ;
     width: 220px;
+    border-radius: 5px;
 }
 
 
